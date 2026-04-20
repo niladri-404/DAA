@@ -39,7 +39,7 @@ void findMaxMin(int arr[], int low, int high, int *max, int *min)
     if (low == high)
     {
         *min = arr[low];
-        *max = arr[high];
+        *max = arr[low];
         return;
     }
 
